@@ -48,7 +48,6 @@ int main(int argc, char *argv[])
 
     for (TEST_TYPE::iterator it = test.begin(); it != test.end(); it++)
         std::cout << (*it) << " ";
-    SORT_FUNC(test.begin(), test.end(), slightly_broken_comparer);
     std::cout << std::endl;
 
     SORT_FUNC(test.begin(), test.end(), slightly_broken_comparer);
